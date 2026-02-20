@@ -22,8 +22,8 @@ Provides a TouchDesigner-style **TOP / CHOP node system** with a visual node edi
 ### 🧠 Workspace Demo (Main)
 
 <p align="center">
-  <a href="docs/media/RDO_workspace_video.mp4">
-    <img src="docs/media/flower_workspace.png" width="900" alt="RDO Workspace Preview"/>
+  <a href="https://youtu.be/P3bCCdhMsKo">
+    <img src="https://img.youtube.com/vi/P3bCCdhMsKo/maxresdefault.jpg" width="900" alt="RDO Workspace Demo"/>
   </a>
 </p>
 
@@ -33,7 +33,7 @@ Provides a TouchDesigner-style **TOP / CHOP node system** with a visual node edi
 </p>
 
 <p align="center">
-  ▶️ <a href="docs/media/RDO_workspace_video.mp4">Watch Video</a>
+  ▶️ <a href="https://youtu.be/P3bCCdhMsKo"><b>Watch on YouTube</b></a>
 </p>
 
 ---
@@ -50,25 +50,19 @@ Provides a TouchDesigner-style **TOP / CHOP node system** with a visual node edi
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center">
-<a href="docs/media/firework.mp4">
-  <img src="docs/media/flower_workspace.png" width="420" alt="Firework Output"/>
-</a><br/>
-<b>Firework Output</b><br/>
-<a href="docs/media/firework.mp4">Watch Video</a>
-</td>
+<a href="https://youtube.com/shorts/bfCKtY0Q8vs">
+  <img src="https://img.youtube.com/vi/bfCKtY0Q8vs/hqdefault.jpg" width="420" alt="Flower Output"/>
+</a>
 
-<td align="center">
-<a href="docs/media/flower.mp4">
-  <img src="docs/media/flower_workspace.png" width="420" alt="Flower Output"/>
-</a><br/>
-<b>Flower Output</b><br/>
-<a href="docs/media/flower.mp4">Watch Video</a>
-</td>
-</tr>
-</table>
+<a href="https://youtube.com/shorts/XAORfeNUV9o">
+  <img src="https://img.youtube.com/vi/XAORfeNUV9o/hqdefault.jpg" width="420" alt="Firework Output"/>
+</a>
+
+<br/><br/>
+
+▶️ <a href="https://youtube.com/shorts/bfCKtY0Q8vs"><b>Flower Output</b></a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+▶️ <a href="https://youtube.com/shorts/XAORfeNUV9o"><b>Firework Output</b></a>
 
 </div>
 
