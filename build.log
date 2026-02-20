@@ -1,0 +1,89 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project RDO.xcodeproj -scheme RDO -configuration Debug build
+
+2026-01-01 05:17:03.262 xcodebuild[11607:177176] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:macOS, arch:arm64, id:00006040-001031192289801C, name:My Mac }
+{ platform:macOS, arch:x86_64, id:00006040-001031192289801C, name:My Mac }
+{ platform:macOS, name:Any Mac }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'RDO' in project 'RDO' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -x objective-c++ -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -x c++ -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: b3ececc7bc1f238d80eed3288acc8579
+Build description path: /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/XCBuildData/b3ececc7bc1f238d80eed3288acc8579.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk /Users/junu/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.1-25B74-3885c01c3e6b6a337905948deab2002e3ae1261907bdadc328169391a47051a6.sdkstatcache
+    cd /Users/junu/Documents/RDO/RDO.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -o /Users/junu/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.1-25B74-3885c01c3e6b6a337905948deab2002e3ae1261907bdadc328169391a47051a6.sdkstatcache
+
+WriteAuxiliaryFile /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/RDO.LinkFileList (in target 'RDO' from project 'RDO')
+    cd /Users/junu/Documents/RDO
+    write-file /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/RDO.LinkFileList
+
+ProcessProductPackaging "" /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/RDO.xcent (in target 'RDO' from project 'RDO')
+    cd /Users/junu/Documents/RDO
+    
+    Entitlements:
+    
+    {
+    "com.apple.application-identifier" = "";
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/RDO.xcent
+
+ProcessProductPackagingDER /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/RDO.xcent /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/RDO.xcent.der (in target 'RDO' from project 'RDO')
+    cd /Users/junu/Documents/RDO
+    /usr/bin/derq query -f xml -i /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/RDO.xcent -o /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/RDO.xcent.der --raw
+
+CompileC /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/trail_top_node.o /Users/junu/Documents/RDO/RDO/nodes/TOP/filter/trail_top_node.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'RDO' from project 'RDO')
+    cd /Users/junu/Documents/RDO
+    
+    Using response file: /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/af3fcb34312c57c0f52879cdce924b91-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -ivfsstatcache /Users/junu/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.1-25B74-3885c01c3e6b6a337905948deab2002e3ae1261907bdadc328169391a47051a6.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/junu/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wquoted-include-in-framework-header -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Winfinite-recursion -Wmove -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wrange-loop-analysis -Wno-semicolon-before-method-body -Wunguarded-availability -index-store-path /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Index.noindex/DataStore @/Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/af3fcb34312c57c0f52879cdce924b91-common-args.resp -MMD -MT dependencies -MF /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/trail_top_node.d --serialize-diagnostics /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/trail_top_node.dia -c /Users/junu/Documents/RDO/RDO/nodes/TOP/filter/trail_top_node.mm -o /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/trail_top_node.o -index-unit-output-path /RDO.build/Debug/RDO.build/Objects-normal/arm64/trail_top_node.o
+
+Ld /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug/RDO normal (in target 'RDO' from project 'RDO')
+    cd /Users/junu/Documents/RDO
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos26.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -O0 -L/Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -L/Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug -L/Users/junu/Documents/RDO/third_party/imgui/examples/libs/glfw/lib-vc2010-32 -L/Users/junu/Documents/RDO/third_party/imgui/examples/libs/glfw/lib-vc2010-64 -F/Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -F/Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug -filelist /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/RDO.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/RDO_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/Objects-normal/arm64/RDO_dependency_info.dat -fobjc-arc -fobjc-link-runtime -framework Metal -framework MetalKit -framework AppKit -framework QuartzCore -framework Foundation -framework GameController -framework AVFoundation -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework IOSurface -framework UniformTypeIdentifiers -framework MetalPerformanceShaders -Xlinker -no_adhoc_codesign -o /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug/RDO
+ld: warning: search path '/Users/junu/Documents/RDO/third_party/imgui/examples/libs/glfw/lib-vc2010-32' not found
+ld: warning: search path '/Users/junu/Documents/RDO/third_party/imgui/examples/libs/glfw/lib-vc2010-64' not found
+
+CodeSign /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug/RDO (in target 'RDO' from project 'RDO')
+    cd /Users/junu/Documents/RDO
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Intermediates.noindex/RDO.build/Debug/RDO.build/RDO.xcent --timestamp\=none --generate-entitlement-der /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug/RDO
+
+RegisterExecutionPolicyException /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug/RDO (in target 'RDO' from project 'RDO')
+    cd /Users/junu/Documents/RDO
+    builtin-RegisterExecutionPolicyException /Users/junu/Library/Developer/Xcode/DerivedData/RDO-cwcvxrbrmkkkrkckagldbbpsiadk/Build/Products/Debug/RDO
+
+** BUILD SUCCEEDED **
+
